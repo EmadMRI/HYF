@@ -1,0 +1,112 @@
+body{
+     margin: 0;
+    font-family: "Fira Sans",Helvetica,Arial; 
+}
+
+h1, h2, h3, h4, h5, h6, a{
+ 	  color: #FFFFFF;
+ }
+
+a{
+ 	text-decoration: none;
+}
+
+a:hover{
+	 color: yellow !important;
+}
+
+nav h1{
+	font-size: 2em;
+
+}
+
+a h1:hover{
+	 color: yellow !important;
+}
+
+ ul{
+ list-style-type: none;
+ }
+
+.container{
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 5px #000000;
+	border-radius: 10px;
+	width: 100%;
+	overflow: auto;
+}
+
+.row{
+	display: inline-block;
+	margin:  10px 10px 10px 10px ;
+}
+
+.logo-border{
+	border: 5px solid white;
+	box-shadow: 5px 5px 5px 0px #000000;
+	border-radius: 60px;
+} 
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#one h1{
+	color: #000000;
+}
+
+ #second img{
+	color: #000000;
+	border: 5px solid black;
+	box-shadow: 2px 3px 2px 0px #000000;
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+}
+
+#second header{
+	 width: 35%;
+}
+ 
+#second div.right{
+ width: 62%;
+ text-align: left; 
+ font-size: 1.2em;
+}
+
+#third a{
+	color: #000000;
+}
+
+#third a:hover{
+	 color: red !important;
+}
+
+#body{
+    background: url(images/body-background.jpg);
+   	background-size: cover;
+    background-repeat: no-repeat;
+ 	background-attachment: fixed;
+    background-position: center;  
+	margin-left: 150px;
+	margin-right: 150px;
+}
+ 
